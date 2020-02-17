@@ -1,0 +1,67 @@
+.message-input-wrapper {
+    margin-top: 20px;
+    /* border: 2px solid gray; */
+}
+
+.my-message {
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.message-input {
+    border: 2px solid gray;
+}
+
+.match-message {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.messages-profile-image {
+    height: 10%;
+    width: 10%;
+    border-radius: 50px;
+}
+
+.chat-wrapper {
+    overflow: auto;
+    height: 75vh;
+}
+
+.chat-wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-wrapper::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
+    border-radius: 10px;
+}
+
+.chat-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 767px) {
+	.chat-wrapper{
+        overflow: scroll;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+	.chat-wrapper{
+        overflow: scroll;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 580px) {
+	.chat-wrapper{
+        overflow: scroll;
+        height: 40vh;
+    }
+}

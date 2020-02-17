@@ -1,0 +1,833 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.align-full-name-forms {
+		display: block;
+		text-align: center;
+	}
+	.align-input-mobile {
+		padding-top: 30px;
+	}
+	.form-field-input {
+		width: 100% !important;
+		background-color: transparent;
+		border: none;
+		color: black;
+		outline: none;
+		border-bottom: 1px solid black;
+		font-size: 1em;
+		font-weight: 300;
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+	.custom-interest-wrapper {
+		width: 100% !important;
+	}
+	.block-user-text-area {
+		width: 90% !important;
+		height: 100px;
+		border: 2px solid gray;
+		resize: none;
+	}
+}
+
+.page-contents {
+	height: 80vh;
+	padding-top: 100px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+a {
+	font-size: 20px;
+}
+
+.page-content-align-background-image {
+	padding-top: 20vh;
+}
+
+.landing-page-content-header {
+	font-family: 'Shadows Into Light', cursive;
+	color: red;
+}
+
+/**
+*   landing page buttons
+*/
+
+a.landing-page-buttons {
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	border: 0.1em solid red;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: red;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+a.landing-page-buttons:hover {
+	color: white;
+	background-color: red;
+}
+
+.fit-landing-page-buttons {
+	padding-top: 30px;
+}
+
+/* Styles for the register component */
+
+.Register-form {
+	border: 2px solid red;
+	width: 100%;
+	background-color: white;
+	padding: 25px 40px;
+	overflow: auto;
+}
+
+.form-title {
+	color: black;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.form-title-link {
+	color: red;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.7em;
+	margin: 0 10px;
+	padding-bottom: 5px;
+}
+
+.form-title-link:first-child {
+	margin-left: 0;
+}
+
+.form-title-link-active {
+	color: white;
+	border-bottom: 1px solid black;
+}
+
+.form-center {
+	margin-bottom: 100px;
+}
+
+.form-field {
+	margin-bottom: 40px;
+}
+
+.form-field-label {
+	display: block;
+	text-transform: uppercase;
+	font-size: .7em;
+	color: red;
+}
+
+.form-field-input {
+	width: 60%;
+	background-color: transparent;
+	border: none;
+	color: black;
+	outline: none;
+	border-bottom: 1px solid black;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.smaller-field-input {
+	width: 30%;
+	background-color: transparent;
+	border: none;
+	color: black;
+	outline: none;
+	border-bottom: 1px solid black;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.form-field-button {
+	background-color: red;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	padding: 15px 70px;
+	font-size: .8em;
+	font-weight: 500;
+}
+
+.form-field-link {
+	padding-left: 20px;
+	color: red;
+	text-decoration: none;
+	display: inline-block;
+}
+
+Link {
+	text-decoration: 'none';
+}
+
+.custom-select-dropdown select {
+	border-radius: 10px;
+	text-decoration: none;
+	height: 40px;
+	background-color: red;
+	color: white;
+}
+
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 2em;
+	width: 100%;
+	background-color: white;
+	color: red;
+	text-align: center;
+}
+
+.responsive-image {
+	width: 30%;
+	height: auto;
+}
+
+.adjustable-inputs {
+	width: 20vw;
+}
+
+.password-reset-container {
+	padding-top: 70px;
+}
+
+.divide-profile-sections {
+	height: 25%;
+	width: 100%;
+}
+
+.profile-image-styling {
+	max-height: 250px;
+	max-width: 250px;
+	min-width: 250px;
+	min-height: 250px;
+}
+
+#profile-image-container {
+	max-height: 250px;
+	max-width: 250px;
+	position: relative;
+}
+
+#other-profile-images-container {
+	height: 150px;
+	width: 150px;
+	position: relative;
+}
+
+#change-profile-image-button {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgba(192, 192, 192, 0.6);
+	color: black;
+	height: 35px;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+#change-other-images-button {
+	position: absolute;
+	bottom: 0px;
+	width: 49%;
+	background-color: rgba(192, 192, 192, 0.6);
+	color: black;
+	font-size: .5rem;
+	font-weight: bold;
+}
+
+#change-other-images-button-right {
+	cursor: pointer;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 49%;
+	background-color: rgba(192, 192, 192, 0.6);
+	color: black;
+	font-size: .5rem;
+	font-weight: bold;
+}
+
+.change-profile-image-label {
+	width: 100%;
+	cursor: pointer;
+	height: 100%;
+}
+
+.other-profile-images-styling {
+	height: 150px;
+	width: 150px;
+}
+
+.user-profile-statistics {
+	padding-top: 50px;
+}
+
+.user-profile-stats-titles {
+	display: block;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+
+.biography-input-container {
+	display: block;
+}
+
+.biography-section-box {
+	width: 70%;
+	min-height: 15vh;
+	border: 3px solid #cccccc;
+	resize: none;
+}
+
+.interests-section-box {
+	width: 70%;
+	max-height: 5vh;
+	border: 3px solid #cccccc;
+	resize: none;
+}
+
+.custom-interest-wrapper {
+	width: 30%;
+	padding-bottom: 10px;
+}
+
+.add-interest-input {
+	background: transparent;
+	color: black;
+	border: 3px solid #cccccc;
+}
+
+.add-interest-button {
+	background: transparent;
+	border: 3px solid #cccccc;
+}
+
+.add-interest-button:hover {
+	background: green;
+	color: white;
+}
+
+.stats-font-size {
+	font-size: 1.5em;
+}
+
+.male-blue {
+	color: #2dA9D9;
+}
+
+.female-pink {
+	color: #B73377;
+}
+
+.choose-interested-gender {
+	text-decoration: line-through;
+}
+
+i.choose-interested-gender:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.bio-change-button {
+	color: white;
+	background-color: red !important;
+	border: none;
+}
+
+.bio-button-wrapper {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.email-location-wrapper {
+	padding-top: 50px;
+	padding-bottom: 10vh;
+}
+
+.full-name-change-wrapper {
+	padding-top: 50px;
+}
+
+.align-full-name-forms {
+	display: flex;
+	padding-top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.align-input-mobile {
+	padding-top: inherit;
+	width: 100%;
+}
+
+.change-location-wrapper {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.edit-information-label {
+	font-size: 20px;
+}
+
+.change-email-container {
+	padding-top: 20vh;
+	text-align: center;
+}
+
+.update-information-button:hover {
+	color: white;
+	background-color: green;
+	border: 2px solid green;
+	border-radius: 25px;
+}
+
+.update-information-button {
+	color: green;
+	background-color: white;
+	border: 2px solid green;
+	border-radius: 25px
+}
+
+.custom-change-email-button:hover {
+	color: white;
+	background-color: red;
+	border: 2px solid red;
+	border-radius: 25px;
+}
+
+.custom-change-email-button {
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+	border-radius: 25px;
+}
+
+.change-email-address-wrapper {
+	padding-top: 5vh;
+	text-align: center;
+	padding-bottom: 15vh;
+}
+
+.update-email-btn {
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+.update-email-btn:hover {
+	color: orange;
+	background-color: white;
+	border: 2px solid orange;
+}
+
+.interest-wrapper {
+	font-size: 1rem;
+	color: gray;
+	border: 2px solid gray;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 2px;
+}
+
+.delete-interest-icon:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.interests-box {
+	padding-top: 20px;
+	width: auto;
+	height: auto;
+	min-height: 10vh;
+	border: 3px solid #cccccc;
+}
+
+.profile-matches-messages-container {
+	height: 100vh;
+	padding-right: 0;
+}
+
+.message-profile-panel {
+	color: black;
+	background-image: linear-gradient(to right top, #e74a7c, #f15270, #f85d64, #fc6959, #fe774d);
+}
+
+.search-input {
+	width: 40%;
+	transition: ease-in-out, width .35s ease-in-out;
+	border: 3px solid #F95F61;
+	padding-left: 20px;
+}
+
+.search-input:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+	border: 3px solid #F95F61;
+}
+
+.profile-panel-profile-image {
+	margin-left: 10px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	height: 50px;
+	width: 55px;
+	border-radius: 50%;
+}
+
+.my-profile-header {
+	color: white;
+	margin-left: 15px;
+}
+
+.search-icon {
+	color: white;
+	margin: auto 30px auto auto;
+	float: right;
+	cursor: pointer;
+}
+
+.foreveralone-image {
+	height: 250px;
+	width: 250px;
+}
+
+.no-matches-yet {
+	text-align: center;
+	align-content: center;
+	margin: 35% 10% auto 10%;
+}
+
+.user-profile-matching {
+	height: 50%;
+	box-shadow: 0px 0px 5px 5px gray;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 5%;
+}
+
+.display-profile-image-container {
+	height: 65%;
+}
+
+.display-profile-stats-container {
+	height: 35%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.display-profile-name-and-age {
+	color: black;
+	display: flex;
+	height: 25%;
+}
+
+.display-profile-bio {
+	height: 40%;
+}
+
+.display-profile-like-dislike-buttons-container {
+	height: 35%;
+}
+
+.display-profile-like-dislike-buttons {
+	padding-top: 10px;
+	display: flex;
+	text-align: center;
+}
+
+.responsive-browsing-icon {
+	font-size: 4em;
+	cursor: pointer;
+}
+
+.responsive-browsing-icon:hover {
+	font-size: 4em;
+	cursor: pointer;
+	animation: shadow-pulse 1s infinite;
+}
+
+@keyframes shadow-pulse {
+	0% {
+		box-shadow: 0 0 0 0px rgba(248, 58, 101, 0.2);
+		border-radius: 50%;
+	}
+	100% {
+		box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+		border-radius: 50%;
+	}
+}
+
+@media screen and (max-width: 1900px) {
+	.user-profile-matching {
+		height: 60%;
+		box-shadow: 0px 0px 5px 5px gray;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.user-profile-matching {
+		height: 80%;
+		box-shadow: 0px 0px 5px 5px gray;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10%;
+	}
+	.age-select-dropdown {
+		width: 50% !important;
+	}
+}
+
+.responsive-header {
+	display: flex;
+}
+
+@media screen and (max-width: 767px) {
+	.responsive-header {
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
+	}
+	.header-nav-link-mobile {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.search-input {
+		width: 40%;
+		transition: ease-in-out, width .35s ease-in-out;
+		border: 3px solid #F95F61;
+		padding-left: 5px;
+	}
+	.block-account-button {
+		display: inline;
+		margin: 0px 5px 0px 5px !important;
+		color: red !important;
+	}
+	.report-fake-account-button {
+		display: inline;
+		margin: 0px 5px 0px 5px !important;
+		font-size: 20px;
+		cursor: pointer;
+	}
+}
+
+#notification-bell .fa-stack[data-count]:after {
+	position: absolute;
+	right: 0%;
+	content: attr(data-count);
+	font-size: 40%;
+	padding: .6em;
+	border-radius: 50%;
+	line-height: .8em;
+	color: white;
+	background: rgba(255, 0, 0, .85);
+	text-align: center;
+	min-width: 1em;
+	font-weight: bold;
+}
+
+.notification-profile-image {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.notification-name {
+	display: inline;
+	position: relative;
+}
+
+.notification-item-container {
+	position: static;
+	vertical-align: text-bottom !important;
+}
+
+.profile-information-wrapper {
+	font-family: 'Hepta Slab', serif;
+}
+
+.history-item {
+	display: flex;
+	width: 100%;
+	background-color: #F5FAFA;
+	margin: 10px;
+	border: 2px solid #d6eaea;
+	cursor: pointer;
+	text-align: center;
+}
+
+.matched-history-item {
+	display: flex;
+	width: 100%;
+	background-color: #c0070b;
+	margin: 10px;
+	border: 2px solid #A30630;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.unmatched-history-item {
+	display: flex;
+	width: 100%;
+	background-color: orange;
+	margin: 10px;
+	border: 2px solid orange;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.match-message-container {
+	cursor: pointer;
+	width: 100%;
+	border: 2px solid #d6eaea;
+	background-color: #F5FAFA;
+}
+
+.match-message-profile-image {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+}
+
+.not-eligible-to-browse-content {
+	margin-top: 10%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link-to-edit-profile {
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: underline;
+}
+
+.done-check-list {
+	color: green;
+}
+
+.to-do-checklist {
+	color: red;
+}
+
+.age-select-dropdown {
+	width: 40% !important;
+}
+
+.block-account-button {
+	display: inline;
+	margin: 0px 20px 0px 20px;
+	color: red !important;
+}
+
+.report-fake-account-button {
+	display: inline;
+	margin: 0px 20px 0px 20px;
+	font-size: 20px;
+	color: orange !important;
+	cursor: pointer;
+}
+
+.report-fake-account-button:hover {
+	text-decoration: underline;
+}
+
+.block-user-wrapper {
+	font-family: 'Hepta Slab', serif;
+	text-align: center;
+}
+
+.block-user-body-wrapper {
+	margin-top: 5vh;
+}
+
+.block-user-profile-image {
+	margin-top: 5vh;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.block-user-text-area {
+	width: 70%;
+	height: 100px;
+	border: 2px solid gray;
+	resize: none;
+}
+
+.block-user-text-area:focus {
+	box-shadow: none;
+}
+
+.filter-selection-wrapper {
+	margin-top: 5vh;
+}
+
+.search-and-browse-container{
+	margin-top: 2vh;
+}
+
+.header-link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.browse-link{
+	font-size: 30px;
+	color: gray !important;
+}
+
+.search-link{
+	font-size: 30px;
+	color: gray !important;
+}
+
+.browse-link:hover{
+	text-decoration: underline black;
+}
+
+.search-link:hover{
+	text-decoration: underline black;
+}
+
+.current{
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline black;
+}
+
+.like-user-from-profile-button{
+	color: white;
+	background-color: red;
+	border: 1px solid white;
+}
